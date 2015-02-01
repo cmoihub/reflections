@@ -1,0 +1,17 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+It proved to be quite useful. I have no idea how else it could've been accomplished
+
+Viewing history through version control?
+It would allow to check for mistakes in recent updates
+It would also make it easier to restore files
+
+Pros & Cons of manually choosing when to create commit vs autosave
+The manual method seems more logical however if one forgets to note a particular change made this prove unhelpful
+Autosave guarantees that your work will always be saved at a given checkpoint however it also means that code might end up being meaningless and not able to compile
+You may also not want to save a particular change.  You could be running tests. If these changes are acknowledged by your autosave feature they may prove to be confusing later on
+
+Why do some version control systems e.g. GIT  allow saving multiple files completely whereas others like Google Docs treat the files separately?
+GIT may do this because it recognizes that there is some connection or logical relation between the files.
+
+Git log: simply shows all commits made, including author,email and date
+Git diff: uses commit ids obtained from the log for comparing files. This helps to show all the changes made to such files
