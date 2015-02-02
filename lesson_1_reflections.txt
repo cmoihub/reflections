@@ -15,3 +15,6 @@ GIT may do this because it recognizes that there is some connection or logical r
 
 Git log: simply shows all commits made, including author,email and date
 Git diff: uses commit ids obtained from the log for comparing files. This helps to show all the changes made to such files
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+If you want to go in a specific direction for a project but don't want such to be the general implementation, branches will be quite useful. E.g. if you want to do code for a game in varying difficulties, or a program in different languages such as Japanese & Arabic

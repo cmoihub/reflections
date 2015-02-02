@@ -3,3 +3,6 @@ The staging area encourages me to be more specific during the process of making 
 
 How can you use the staging area to make sure you have one commit per logical change?
 This is by done using various variations of git diff. The best I think would be 'git diff --staged' which compares what's in the staging area to the most recent commit. This would help to know if you are making a new change so as to avoid repetition
+
+How do the diagams help you visualize the branch structure?
+Shows that some commits can be lost if branches are not handled properly. Helps to show the history of various commits by connecting to their parents. I think this would aid in doing bug fixes.
