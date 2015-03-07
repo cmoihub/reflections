@@ -11,3 +11,6 @@ What is the result of merging two branches together?
 All the commits under the branches will be connected as a result of a merge
 Why do we represent it in the diagram the way we do?
 The diagram makes it easier to visualize the process
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Manual merging is more tedious than automatic merging but it however means that details are always taken into consideration. This is because it is not possible for Git to be able to accurately assess which changes from the commits to be merged are needed. It cannot also check if changes have even been made
