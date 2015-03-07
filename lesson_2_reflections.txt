@@ -6,3 +6,8 @@ This is by done using various variations of git diff. The best I think would be 
 
 How do the diagams help you visualize the branch structure?
 Shows that some commits can be lost if branches are not handled properly. Helps to show the history of various commits by connecting to their parents. I think this would aid in doing bug fixes.
+
+What is the result of merging two branches together?
+All the commits under the branches will be connected as a result of a merge
+Why do we represent it in the diagram the way we do?
+The diagram makes it easier to visualize the process
