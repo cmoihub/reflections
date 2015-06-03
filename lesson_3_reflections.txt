@@ -1,5 +1,11 @@
 When would you want to create a remote repository rather than keeping all your work local?
-A remote repository is useful when you're ready to share your work online with collaborators
+-A remote repository is useful when you're ready to share your work online with collaborators
 or to show your progress online with other people
+
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
-It's possible that you have not yet finished working on something. It would not be good for unfinished  material to be pushed into your repository as you may end up completely scrapping it at the end or more changes may still need to be added.
+-It's possible that you have not yet finished working on something. It would not be good for unfinished  material to be pushed into your repository as you may end up completely scrapping it at the end or more changes may still need to be added.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+-Branching can only be done locally and is used to create a separate line of thought or development that differs from the master or what everyone else is working on. It is personalized.
+-Forking involves requesting Github to clone a project and registering it under your username, Therefore it could be seen as a special form of cloning
+-Cloning can be done locally or on Github. It involves duplicating a repo
