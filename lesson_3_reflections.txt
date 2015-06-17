@@ -2,16 +2,24 @@ When would you want to create a remote repository rather than keeping all your w
 -A remote repository is useful when you're ready to share your work online with collaborators
 or to show your progress online with other people
 
+
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 -It's possible that you have not yet finished working on something. It would not be good for unfinished  material to be pushed into your repository as you may end up completely scrapping it at the end or more changes may still need to be added.
+
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 -Branching can only be done locally and is used to create a separate line of thought or development that differs from the master or what everyone else is working on. It is personalized.
 -Forking involves requesting Github to clone a project and registering it under your username, therefore it could be seen as a special form of cloning
 -Cloning can be done locally or on Github. It involves duplicating a repo
 
+
 What is the benefit of having a copy of the last known state of the remote stored locally?
 -Helps if a collaborator made a change online and you want to check on those changes later without changing the remote. Also helps if you wanna check on the progress you've made but know that in the future you might not have access to internet or online content
 
+
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 I would probably use existing software/programs with cloud capabilities like Dropbox or Google Drive. I have in the past used Facebook or emails to collaborate with others. The cloud software allow for quicker editing but collaborators are unaware of changes made to files if not told and if an error is created, it may go unnoticed until the final presentation. In Git and GitHub however since the use of branches is encouraged, this would most likely be avoided. Unlike Git and GitHub changes to files are registered automatically in place of approval by all the collaborators.
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+If there's specific information on the branch that's not yet on master that you want to edit. These changes can then later be merged into the master branch
